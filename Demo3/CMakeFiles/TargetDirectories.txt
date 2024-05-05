@@ -1,0 +1,6 @@
+/Users/hmmei/cmake-demo/Demo3/CMakeFiles/Demo3.dir
+/Users/hmmei/cmake-demo/Demo3/CMakeFiles/edit_cache.dir
+/Users/hmmei/cmake-demo/Demo3/CMakeFiles/rebuild_cache.dir
+/Users/hmmei/cmake-demo/Demo3/math/CMakeFiles/MathFunctions.dir
+/Users/hmmei/cmake-demo/Demo3/math/CMakeFiles/edit_cache.dir
+/Users/hmmei/cmake-demo/Demo3/math/CMakeFiles/rebuild_cache.dir
