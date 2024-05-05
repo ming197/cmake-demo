@@ -1,0 +1,3 @@
+/Users/hmmei/cmake-demo/Demo1/CMakeFiles/Demo1.dir
+/Users/hmmei/cmake-demo/Demo1/CMakeFiles/edit_cache.dir
+/Users/hmmei/cmake-demo/Demo1/CMakeFiles/rebuild_cache.dir
