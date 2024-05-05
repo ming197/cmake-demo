@@ -1,12 +1,12 @@
-# CMake 最低版本号要求
+# version configuration
 cmake_minimum_required (VERSION 2.8)
 
-# 项目信息
+# project info
 project (Demo2)
 
-# 查找目录下的所有源文件
-# 并将名称保存到 DIR_SRCS 变量
-aux_source_directory(. DIR_SRCS)
+# add all files under the source directory
+# aux_source_directory(<dir> <variable>)
+aux_source_directory(. SOURCE_FILES_)
 
-# 指定生成目标
-add_executable(Demo ${DIR_SRCS})
+# generate executable files
+add_executable(Demo2 ${SOURCE_FILES_})
