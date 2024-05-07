@@ -1,0 +1,4 @@
+/Users/hmmei/cmake-demo/Demo5/./usr/bin/Demo5
+/Users/hmmei/cmake-demo/Demo5/./usr/include/config.h
+/Users/hmmei/cmake-demo/Demo5/./usr/lib/libMathFunctions.a
+/Users/hmmei/cmake-demo/Demo5/./usr/include/MathFunctions.h
