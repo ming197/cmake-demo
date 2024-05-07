@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/hmmei/cmake-demo/Demo5 -I/Users/hmmei/cmake-demo/Demo5/math
+CXX_INCLUDES = -I/Users/hmmei/cmake-demo/Demo5/math
 
 CXX_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 
