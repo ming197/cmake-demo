@@ -56,34 +56,34 @@ install (TARGETS Demo5 DESTINATION bin)
 install (FILES "${PROJECT_BINARY_DIR}/config.h"
          DESTINATION include)
 
-# # 启用测试
-# enable_testing()
+# 启用测试
+enable_testing()
 
-# # 测试程序是否成功运行
-# add_test (test_run Demo 5 2)
+# add_test(NAME <test_name> COMMAND <command>(executable name) [<arg1> <arg2> ...])
+add_test (test_run Demo5 5 2)
 
-# # 测试帮助信息是否可以正常提示
-# add_test (test_usage Demo)
-# set_tests_properties (test_usage
-#   PROPERTIES PASS_REGULAR_EXPRESSION "Usage: .* base exponent")
+# 测试帮助信息是否可以正常提示
+add_test (test_usage Demo5)
+set_tests_properties (test_usage
+  PROPERTIES PASS_REGULAR_EXPRESSION "Usage: .* base exponent")
 
-# # 测试 5 的平方
-# # add_test (test_5_2 Demo 5 2)
+# 测试 5 的平方
+add_test (test_5_2 Demo5 5 2)
 
-# # set_tests_properties (test_5_2
-# #  PROPERTIES PASS_REGULAR_EXPRESSION "is 25")
+set_tests_properties (test_5_2
+ PROPERTIES PASS_REGULAR_EXPRESSION "is 25")
 
-# # 测试 10 的 5 次方
-# # add_test (test_10_5 Demo 10 5)
+# 测试 10 的 5 次方
+add_test (test_10_5 Demo5 10 5)
 
-# # set_tests_properties (test_10_5
-# #  PROPERTIES PASS_REGULAR_EXPRESSION "is 100000")
+set_tests_properties (test_10_5
+ PROPERTIES PASS_REGULAR_EXPRESSION "is 100000")
 
-# # 测试 2 的 10 次方
-# # add_test (test_2_10 Demo 2 10)
+# 测试 2 的 10 次方
+add_test (test_2_10 Demo5 2 10)
 
-# # set_tests_properties (test_2_10
-# #  PROPERTIES PASS_REGULAR_EXPRESSION "is 1024")
+set_tests_properties (test_2_10
+ PROPERTIES PASS_REGULAR_EXPRESSION "is 1024")
 
 # # 定义一个宏，用来简化测试工作
 # macro (do_test arg1 arg2 result)

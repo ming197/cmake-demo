@@ -1,4 +1,5 @@
 /Users/hmmei/cmake-demo/Demo5/CMakeFiles/Demo5.dir
+/Users/hmmei/cmake-demo/Demo5/CMakeFiles/test.dir
 /Users/hmmei/cmake-demo/Demo5/CMakeFiles/edit_cache.dir
 /Users/hmmei/cmake-demo/Demo5/CMakeFiles/rebuild_cache.dir
 /Users/hmmei/cmake-demo/Demo5/CMakeFiles/list_install_components.dir
@@ -6,6 +7,7 @@
 /Users/hmmei/cmake-demo/Demo5/CMakeFiles/install/local.dir
 /Users/hmmei/cmake-demo/Demo5/CMakeFiles/install/strip.dir
 /Users/hmmei/cmake-demo/Demo5/math/CMakeFiles/MathFunctions.dir
+/Users/hmmei/cmake-demo/Demo5/math/CMakeFiles/test.dir
 /Users/hmmei/cmake-demo/Demo5/math/CMakeFiles/edit_cache.dir
 /Users/hmmei/cmake-demo/Demo5/math/CMakeFiles/rebuild_cache.dir
 /Users/hmmei/cmake-demo/Demo5/math/CMakeFiles/list_install_components.dir
