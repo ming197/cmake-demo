@@ -1,0 +1,2 @@
+/Users/hmmei/cmake-demo/Demo6/./usr/bin/Demo
+/Users/hmmei/cmake-demo/Demo6/./usr/include/config.h

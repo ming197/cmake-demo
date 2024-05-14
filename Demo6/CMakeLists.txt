@@ -4,10 +4,13 @@ cmake_minimum_required (VERSION 2.8)
 # 项目信息
 project (Demo6)
 
-set (CMAKE_INCLUDE_CURRENT_DIR ON)
+# define the variable
+# set (CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_INSTALL_PREFIX "./usr")
 
-# 检查系统是否支持 pow 函数
+# 包含 CheckFunctionExists 模块 
 include (${CMAKE_ROOT}/Modules/CheckFunctionExists.cmake)
+# 检查函数是否存在
 check_function_exists (pow HAVE_POW)
 
 # 加入一个配置头文件，用于处理 CMake 对源码的设置

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <config.h>
+#include "config.h"
 
 #ifdef HAVE_POW
   #include <math.h>
