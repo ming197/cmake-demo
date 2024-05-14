@@ -85,14 +85,14 @@ add_test (test_2_10 Demo5 2 10)
 set_tests_properties (test_2_10
  PROPERTIES PASS_REGULAR_EXPRESSION "is 1024")
 
-# # 定义一个宏，用来简化测试工作
-# macro (do_test arg1 arg2 result)
-#   add_test (test_${arg1}_${arg2} Demo ${arg1} ${arg2})
-#   set_tests_properties (test_${arg1}_${arg2}
-#     PROPERTIES PASS_REGULAR_EXPRESSION ${result})
-# endmacro (do_test)
+# 定义一个宏，用来简化测试工作
+macro (do_test arg1 arg2 result)
+  add_test (test_${arg1}_${arg2} Demo5 ${arg1} ${arg2})
+  set_tests_properties (test_${arg1}_${arg2}
+    PROPERTIES PASS_REGULAR_EXPRESSION ${result})
+endmacro (do_test)
 
-# # 利用 do_test 宏，测试一系列数据
-# do_test (5 2 "is 25")
-# do_test (10 5 "is 100000")
-# do_test (2 10 "is 1024")
+# 利用 do_test 宏，测试一系列数据
+do_test (5 2 "is 25")
+do_test (10 5 "is 100000")
+do_test (2 10 "is 1024")
