@@ -5,7 +5,9 @@ project (Demo8)
 set (Demo_VERSION_MAJOR 1)
 set (Demo_VERSION_MINOR 0)
 
-set (CMAKE_INCLUDE_CURRENT_DIR ON)
+# define the variable
+# set (CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_INSTALL_PREFIX "./usr")
 
 # 检查系统是否支持 pow 函数
 include (${CMAKE_ROOT}/Modules/CheckFunctionExists.cmake)
